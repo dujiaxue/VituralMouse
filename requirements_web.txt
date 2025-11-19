@@ -1,0 +1,14 @@
+# 核心依赖
+Flask==2.3.3
+opencv-python==4.12.0.88
+opencv-contrib-python==4.8.1.78
+mediapipe==0.10.14
+numpy==2.0.2
+pyautogui==0.9.54
+
+# Windows平台依赖（可选）
+pywin32==311; platform_system == "Windows"
+
+# 辅助依赖
+pillow>=8.0.0
+matplotlib>=3.0.0
